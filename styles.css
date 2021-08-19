@@ -5,7 +5,6 @@ body {
   text-align: center;
   font-size: 15px;
   font-family: Libre Franklin;
-  font-weight: 300;
 }
 .container {
   margin: 20px;
@@ -35,6 +34,8 @@ button:hover {
 }
 section h1 {
   color: hsl(0, 0%, 59%);
+  font-family: Libre Franklin;
+  font-weight: 700;
 }
 input {
   padding: 8px;
@@ -45,12 +46,28 @@ input {
   border-style: solid;
   outline: none;
 }
-.sec-3 {
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 25px 25px 25px;
+footer{
   padding-top: 40px;
 }
+.icons {
+  color: hsl(223, 87%, 63%);
+    font-size: 18px;
+    text-align: center;
+}
+
+footer i{
+  display:grid;
+  grid-gap:8px;
+  border: 1px solid rgba(146, 144, 144, 0.555);
+  border-radius: 50%;
+  padding:8px;
+  line-height: 10px;
+  margin:0 10px;
+}
+footer i:hover{
+  background-color: hsl(223, 96%, 48%);
+}
+
 dashboard {
   width: 50px;
   height: 50px;
@@ -63,7 +80,7 @@ section img {
 footer p {
   color: hsl(0, 0%, 59%);
   font-size: 13px;
-  padding-bottom: 10px;
+  
 }
 @media only screen and (max-width: 375px) {
   .subsec-1 {
