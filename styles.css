@@ -82,6 +82,17 @@ footer p {
   font-size: 13px;
   
 }
+#errorText {
+  color:red;;
+  font-size: 12px;
+}
+#successText{
+ color:green;
+ font-size:12px;
+}
+
+/* MEDIA QUERIES */
+
 @media only screen and (max-width: 375px) {
   .subsec-1 {
     display: flex;
@@ -93,4 +104,13 @@ footer p {
   .container {
     margin: 30px;
   }
+  #errorText {
+    color:red;;
+    font-size: 12px;
+  }
+  #successText{
+   color:green;
+   font-size:12px;
+  }
+  
 }
